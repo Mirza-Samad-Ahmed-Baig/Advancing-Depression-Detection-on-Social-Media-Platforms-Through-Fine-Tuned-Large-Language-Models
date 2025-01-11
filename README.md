@@ -14,7 +14,6 @@ The model uses Hugging Face Transformers and PEFT (Parameter Efficient Fine-Tuni
 - [Model Training](#model-training)
 - [Running the Model](#running-the-model)
 - [TensorBoard](#tensorboard)
-- [License](#license)
 
 ## Requirements
 
