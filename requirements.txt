@@ -1,0 +1,9 @@
+
+accelerate
+peft
+bitsandbytes
+transformers
+trl
+tensorboard
+datasets
+torch
