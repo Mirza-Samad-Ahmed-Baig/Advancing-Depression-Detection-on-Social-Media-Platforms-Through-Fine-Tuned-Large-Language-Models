@@ -105,6 +105,14 @@ print(result[0]['generated_text'])
 
 To monitor the training process, you can use TensorBoard. Run the following code to start TensorBoard in Google Colab:
 
+
+
+```python
+from tensorboard import notebook
+log_dir = "/yourpath/foldername/output_dir/runs"
+notebook.start("--logdir {} --port 4000".format(log_dir))
+```
+
 ## Authors
 
 | **Name**                           |
@@ -114,10 +122,3 @@ To monitor the training process, you can use TensorBoard. Run the following code
 | Mirza Samad Ahmed Baig             |
 | Muhammad Aamer Saleem              |
 | Muhammad Hamzah Siddiqui           |
-
-```python
-from tensorboard import notebook
-log_dir = "/yourpath/foldername/output_dir/runs"
-notebook.start("--logdir {} --port 4000".format(log_dir))
-```
-
