@@ -113,6 +113,7 @@ log_dir = "/yourpath/foldername/output_dir/runs"
 notebook.start("--logdir {} --port 4000".format(log_dir))
 ```
 
+## Link of Research paper: https://www.sciencedirect.com/science/article/pii/S2468696425000126
 ## Authors
 
 | **Name**                           |
